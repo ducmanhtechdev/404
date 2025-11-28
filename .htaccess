@@ -1,1 +1,4 @@
+RewriteEngine On
 ErrorDocument 404 /404/404.html
+
+RewriteRule ^trang-chu$ /404/home.php [NC] 
